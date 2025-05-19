@@ -24,7 +24,8 @@
     "prepublishOnly": "npm test",
     "pre-test": "npm run clean && npm run format-check && npm run build:server",
     "watch": "tsc -w",
-    "watch:test": "ava -w"
+    "watch:test": "ava -w",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
